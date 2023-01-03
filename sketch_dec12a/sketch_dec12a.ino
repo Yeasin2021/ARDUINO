@@ -1,4 +1,5 @@
 
+// declare led pin in ardunio
     int led_1 = 13;
     int led_2 = 12;
     int led_3 = 11;

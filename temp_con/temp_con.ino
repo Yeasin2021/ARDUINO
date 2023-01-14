@@ -24,7 +24,7 @@ void loop()
   Serial.print(t);
   Serial.println(" C ");
   delay(1000);
-  if(t <= 30){                        // condition check, when temperature is bellow 30 then the red light is blinking 
+  if(t <= 20){                        // condition check, when temperature is bellow 30 then the red light is blinking 
       digitalWrite(DHTPIN, HIGH);  
       delay(1000);                     
       digitalWrite(DHTPIN, LOW);  
